@@ -125,6 +125,30 @@
     background-color: #1F2937;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 350px 100px;
+}
+
+#quote-text, #quoter {
+    color: #1F2937;
+    font-style: light italic;
+    display: flex;
+    width: 830px;
+}
+
+#quote-text {
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+#quoter{
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+
 .foot{
     color: #F9FAF8;
 }
