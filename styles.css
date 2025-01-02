@@ -38,7 +38,7 @@
 .hero-main {
     display:flex;
     margin: 100px 200px 0 200px;
-
+    justify-content: center;
 }
 
 .hero-main-desc{
@@ -126,13 +126,16 @@
 }
 
 .quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 100px 350px 100px;
+    padding: 5vw 6vw 5vw;
 }
 
 #quote-text, #quoter {
     color: #1F2937;
-    display: flex;
     width: 830px;
 }
 
@@ -140,23 +143,26 @@
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    justify-content: center;
-    align-items: center;
 }
 
 #quoter{
     font-size: 24px;
     font-weight: 900;
+    display: flex;
     justify-content: flex-end;
     padding: 0 50px 0 0;
 }
-
+.s3-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .blue-box {
     background-color: #3882F6;
     width: 1050px;
     height: 150px;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     margin: 100px 250px 100px;
     border-radius: 10px;
