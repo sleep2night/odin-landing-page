@@ -7,6 +7,7 @@
 
 .header {
     display: flex;
+    padding: 20px;
 }
 
 #header-logo {
@@ -14,7 +15,6 @@
     display: flex;
     font-size: 24px;
     justify-content: center;
-    margin: 30px;
 }
 
 .header-link {
@@ -23,7 +23,6 @@
     list-style: none;
     justify-content: center;
     gap: 30px;
-    margin: 30px;
 }
 
 .header-secondary, .header-link {
@@ -38,49 +37,47 @@
 
 .hero-main {
     display:flex;
-    margin: 100px 200px 200px 200px;
+    margin: 100px 200px 0 200px;
 
 }
 
 .hero-main-desc{
     display:flex;
     flex-direction: column;
+    padding: 0 40px 0 0;
+    width: 500px;
 }
 
 #hero-text {
     font-size: 48px;
+    width: 100%;
 }
 
-/* .header-secondary {
-
-} */
+.header-secondary {
+    margin: 0 0 10px;
+}
 
 .first-button{
     color: #F9FAF8;
     font-size: 18px;
     background-color: #3882F6;
-    font-weight: 500;
     border-radius: 10px;
     border-width: 0;
     width: 130px;
     height: 40px;
 }
 
-
-/* .hero-main .image {
-    flex-grow: 2;
-} */
-
-.hero-main .content{
+.box-image{
     display: flex;
-    font-size: 18px;
-    width: 600px;
-    height: 300px;
-    color: #F9FAF8;
-    background-color: #6d747d;
     justify-content:  center;
     align-items: center;
-    
+    font-size: 18px;
+    width: 500px;
+    height: 230px;
+    color: #F9FAF8;
+    background-color: #6d747d;
+    text-align: center;
+    margin: 0 0 150px;
 }
 
 
@@ -90,13 +87,17 @@
     color: #1F2937;
     font-weight: 900;
     justify-content: center;
+    margin: 40px;
 }
-.outer-wrapper {
+
+.s2-outer-wrapper {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
+    margin: 0 0 100px;
 }
-.wrapper{
+
+.s2-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,16 +106,20 @@
 
 .rounded-img {
     border-radius: 25px;
-    border: 3px solid #3882f6;
+    border: 4px solid #3882f6;
     width: 150px;
     height: 150px;
 }
 
-/* .r-img-text {
-    display:flex;
+.r-img-text {
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-} */
+    text-align: center;
+    padding: 10px 0 0;
+}
 
 .hero, .foot {
     background-color: #1F2937;
